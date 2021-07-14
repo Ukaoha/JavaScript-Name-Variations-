@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Name Variation</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="page-wrapper">
+    <nav class="nav_brand">
+        <h1>Name Variations</h1>
+     </nav>
+     <main>
+         <label for="name">Enter your Name</label>
+         <input type="text" id="name_entry" placeholder="Your name" autocomplete="off">
+
+         <table class="table">
+             <thead>
+                 <tr>
+                     <th>
+                         Variations </th>
+                     <th>Results</th>
+                 </tr>
+             </thead>
+             <tbody>
+                 <tr>
+                     <td>Number of Variations</td>
+                     <td id="num_strings"></td>
+                 </tr>
+                 <tr>
+                    <td>Lower Case</td>
+                    <td id="lower_case"></td>
+                </tr>
+                <tr>
+                    <td>Upper Case</td>
+                    <td id="upper_case"></td>
+                </tr>
+                 <tr>
+                    <td>Lower Case Count</td>
+                    <td id="lower_case_count"></td>
+                </tr>
+                 <tr>
+                    <td>Upper Case Count</td>
+                    <td id="upper_case_count"></td>
+                </tr>
+             </tbody>
+
+         </table>
+     </main>
+    </div>
+    <script src="index.js" ></script>
+</body>
+</html>
